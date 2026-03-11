@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+* {
+   margin: 0px;
+   padding: 1%; 
+}
+
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-image: linear-gradient(yellow, orange,rgb(248, 116, 116));
+    min-height: 150px;
+    text-align: center;
+}
+
+header > h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1,2em;
+    color: rgb(0, 0, 0);
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    box-shadow: 1px 1px 2px black;
+}
+    
+    
+
+nav {
+    background-color: black;
+    text-align: center;
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: orange;
+}
+
+main {
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(73, 71, 71);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+main h1 {
+    color: rgb(119, 0, 231);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(119, 0, 231);
+    font-size: 1.3em;
+    text-indent: 8px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+main strong {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(252, 176, 62);
+    padding: 2px 6px;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 214, 250);
+}
+
+main a:hover {
+    text-decoration: underline white;
+
+}
+
+main img {
+    width: 95%;
+}
+
+main img.pequena {
+    max-width: 150px;
+    display: block;
+    margin: auto;
+}
+
+div.video {
+    background-color: brown;
+    margin-bottom: 30px;
+    padding: 5px 5px 5px 5px;
+}
+
+aside {
+    background-color: rgb(252, 216, 169);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+}
+
+aside > h3 {
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+aside > ul {
+    columns: 2;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer p {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer p:hover {
+    text-decoration: underline;
+    color: rgb(240, 189, 95);
+}
