@@ -125,7 +125,7 @@ aside {
     background-color: rgb(252, 216, 169);
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 1px 1px 2px black;
+    box-shadow: 1px 2px 2px black;
 }
 
 aside > h3 {
